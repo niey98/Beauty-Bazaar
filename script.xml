@@ -1,0 +1,174 @@
+<data>
+    <website>
+        <category>Skincare</category>
+        <subcategory>Cleanser</subcategory>
+        <products>
+            <product>
+                <name>Wardah Light Gentle Cleanser</name>
+                <price>RM11.00</price>
+                <rating>5</rating>
+            </product>
+            <product>
+                <name>Perfect Bright Creamy Foam Bright + Smooth Glow</name>
+                <price>RM11.60</price>
+                <rating>2</rating>
+            </product>
+            <product>
+                <name>Hydra Rose Gel to Foam Cleanser</name>
+                <price>RM13.50</price>
+                <rating>4</rating>
+            </product>
+            <product>
+                <name>Anti Aging Facial Wash</name>
+                <price>RM14.50</price>
+                <rating>4</rating>
+            </product>
+            <product>
+                <name>Crystal Clear Secret Micellar Cleansing Gel</name>
+                <price>RM21.70</price>
+                <rating>4</rating>
+            </product>
+        </products>
+        <subcategory>Moisturizer</subcategory>
+        <products>
+            <product>
+                <name>Lightening Day Cream Advanced Niacinamide</name>
+                <price>RM17.00</price>
+                <rating>4</rating>
+            </product>
+            <product>
+                <name>Perfect Bright Moisturizer Bright + Smooth Glow SPF30 PA+++</name>
+                <price>RM11.30</price>
+                <rating>5</rating>
+            </product>
+            <product>
+                <name>Hydra Rose Dewy Aqua Day Gel Wardah Pot</name>
+                <price>RM39.50</price>
+                <rating>4</rating>
+            </product>
+            <product>
+                <name>Anti Aging Day Cream </name>
+                <price>RM40.50</price>
+                <rating>4</rating>
+            </product>
+            <product>
+                <name>Crystal Secret Refreshing Day Gel </name>
+                <price>RM31.60</price>
+                <rating>4</rating>
+            </product>
+        </products>        
+       <subcategory>Sunscreen</subcategory>
+              <products>
+                  <product>
+                      <name>Light Matte Sun Stick SPF 50 PA++++</name>
+                      <price>RM34.50</price>
+                      <rating>4</rating>
+                  </product>
+                  <product>
+                      <name>Essential Sunscreen Gel SPF 30 PA+++</name>
+                      <price>RM13.90</price>
+                      <rating>5</rating>
+                  </product>
+                  <product>
+                      <name>Active Protection Serum SPF 50 PA ++++</name>
+                      <price>RM26.90</price>
+                      <rating>4</rating>
+                  </product>
+                  <product>
+                      <name>Aqua Fresh Essence SPF 50 PA++++</name>
+                      <price>RM20.50</price>
+                      <rating>4</rating>
+                  </product>
+              </products>
+    </website>
+  
+    <website>
+        <category>Makeup</category>
+        <subcategory>Eye</subcategory>
+        <products>
+            <product>
+                <name>EyeXpert Eyebrow Pencil </name>
+                <price>RM14.90</price>
+                <rating>4</rating>
+            </product>
+            <product>
+                <name>EyeXper StayLast Liquid Eyeliner </name>
+                <price>RM17.90</price>
+                <rating>5</rating>
+            </product>
+            <product>
+                <name>EyeXpert Optimum HiBlack Liner </name>
+                <price>RM30.50</price>
+                <rating>4</rating>
+            </product>
+            <product>
+                <name>EyeXpert Perfect Curl Mascara</name>
+                <price>RM31.50</price>
+                <rating>4</rating>
+            </product>
+            <product>
+                <name>Exclusive Eyeshadow Palette </name>
+                <price>RM41.50</price>
+                <rating>4</rating>
+            </product>
+        </products>
+      <subcategory>Face</subcategory>
+      <products>
+          <product>
+              <name>Exclusive Flawless Extra Cover Cushion</name>
+              <price>RM57.00</price>
+              <rating>4</rating>
+          </product>
+          <product>
+              <name>Exclusive Blush On  Rosy Pink  </name>
+              <price>RM24.50</price>
+              <rating>5</rating>
+          </product>
+          <product>
+              <name>Lightening Liquid Concealer Beige  </name>
+              <price>RM16.50</price>
+              <rating>4</rating>
+          </product>
+          <product>
+              <name>Lightening Matte Powder</name>
+              <price>RM22.50</price>
+              <rating>4</rating>
+          </product>
+          <product>
+              <name>Exclusive Glowing Highlighter</name>
+              <price>RM23.90</price>
+              <rating>4</rating>
+          </product>
+      </products>
+      <subcategory>Colorfit Ultralight Lipstick</subcategory>
+      <products>
+          <product>
+              <name>01 Parfait Pink</name>
+              <price>RM17.90</price>
+              <rating>4</rating>
+          </product>
+          <product>
+              <name>02 Summer Peach</name>
+              <price>RM17.90</price>
+              <rating>5</rating>
+          </product>
+          <product>
+              <name>03 Caramel Nude</name>
+              <price>RM17.90</price>
+              <rating>4</rating>
+          </product>
+          <product>
+              <name>04 Mocca Brown</name>
+              <price>RM17.90</price>
+              <rating>4</rating>
+          </product>
+          <product>
+              <name>05 Blossom Pink</name>
+              <price>RM17.90</price>
+              <rating>4</rating>
+          </product>
+      </products>
+    </website>
+</data>
+            
+            

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Beauty Bazaar</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__bar">
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <div>B</div>
+          <span>BEAUTY<br>BAZAAR</span>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html">sales & discount</a></li>
+        <li><a href="skincare.html">skincare</a>
+          <ul class="dropdown">
+            <li><a href="#cleanser">cleanser</a></li>
+            <li><a href="#Moisturizer">moisturizer</a></li>
+            <li><a href="#Sunscreen">suncreen</a></li>
+          </ul>
+        </li>
+        <li><a href="makeup.html">makeup</a>
+          <ul class="dropdown">
+            <li><a href="#makeup1">eye</a></li>
+            <li><a href="#makeup2">face</a></li>
+            <li><a href="#makeup3">lip</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html">about us</a></li>
+      </ul>
+      <div class="nav__btn">
+        <button class="btn" onclick="openPopup()">Add to Cart</button>
+          <div class="popup" id="popup">
+            <p>Added to cart!</p>
+            <button type="button" onclick="closePopup()">OK</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="cleanser__container" id="cleanser">
+    <h2 class="section__header">Cleanser</h2>
+    <div class="container" id="container">
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/cleanser1.jpg" alt="cleanser1">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Wardah Light Gentle Cleanser</h4>
+              <p>Perfect for normal to dry skin types.</p>
+            </div>
+            <h3>RM 11.00<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/cleanser2.jpg" alt="cleanser2">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Perfect bright Creamy Foam Bright + Smooth Glow</h4>
+              <p>Designed for normal to oily skin.</p>
+            </div>
+            <h3>RM 11.60<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/cleanser3.jpg" alt="cleanser3">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Hydra Rose Gel to Foam Cleanser</h4>
+              <p>Perfect for all types skin.</p>
+            </div>
+            <h3>RM 13.50<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/cleanser4.jpg" alt="cleanser4">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Anti Aging Facial Wash</h4>
+              <p>Perfect for all types skin.</p>
+            </div>
+            <h3>RM 14.50<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/cleanser5.jpg" alt="cleanser5">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Crystal Clear Secret Micellar Cleansing Gel </h4>
+              <p>Suitable for normal oily skin.</p>
+            </div>
+            <h3>RM 21.70<span></span></h3>
+            <button class="btn" onclick="openPopup()">
+              <i class="ri-shopping-cart-2-line"></i></button>  
+              <div class="popup" id="popup">
+                <p>Added to cart!</p>
+                <button type="button" onclick="closePopup()">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Moisturizer__container" id="Moisturizer">
+    <h2 class="section__header">Moisturizer</h2>
+    <div class="container" id="container">
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/moisturizer1.jpg" alt="moisturizer1">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Lightening Day Cream Advanced Niacinamide</h4>
+              <p>A moisturizing and brightening cream with Vitamin B3 and SPF 30
+                PA+++ to protect your skin from UV light cause dull skin and dark spots.
+              </p>
+            </div>
+            <h3>RM 17.00<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/moisturizer2.jpg" alt="moisturizer2">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Perfect Bright Moisturizer + Smooth Glow SPF30 PA ++</h4>
+              <p>Formulated with 7 White Actives, Brightening Powder
+                and Oil Control Agent to help your normal-to-oily skin softer and brighter.
+              </p>
+            </div>
+            <h3>RM 11.30<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/moisturizer3.jpg" alt="moisturizer3">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Hydra Rose Dewy Aqua Day Gel Wardah Pot</h4>
+              <p>Enriched with Bio-Hyaluronic Acid which coats the surface of the skin,
+                it goes the extra mile to keep it hydrated all day long.
+              </p>
+            </div>
+            <h3>RM 36.50<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/moisturizer4.jpg" alt="moisturizer4">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Anti Aging Day Cream</h4>
+              <p>Enriched with Advanced Moisturizing Complex to moisturize,
+                Peptide to stimulate collagen production, as well as
+                Vitamin E and Resveratrol as natural antioxidants.
+              </p>
+            </div>
+            <h3>RM 40.50<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/moisturizer5.jpg" alt="moisturizer5">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Crystal Secret Refreshing Day Gel</h4>
+              <p>Day moisturizer with 27 ingredients that contains niacinamide and SPF</p>
+            </div>
+            <h3>RM 31.60<span></span></h3>
+            <button class="btn" onclick="openPopup()">
+              <i class="ri-shopping-cart-2-line"></i>
+            </button>  
+              <div class="popup" id="popup">
+                <p>Added to cart!</p>
+                <button type="button" onclick="closePopup()">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Sunscreen__container" id="Sunscreen">
+    <h2 class="section__header">Sunscreen</h2>
+    <div class="container" id="container">
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/sunscreen1.jpg" alt="sunscreen1">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Light Matte Sun Stick SPF 50 PA++++</h4>
+              <p>light and non-sticky in use, although it contains no alcohol.
+              </p>
+            </div>
+            <h3>RM 34.50<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/sunscreen2.jpg" alt="sunscreen2">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Essential Sunscreen Gel SPF 30 PA+++</h4>
+              <p>Light texture, non-sticky, non-greasy and easy to be absorbed
+              </p>
+            </div>
+            <h3>RM 13.90<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/sunscreen3.jpg" alt="sunscreen3">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Active Protection Serum SPF 50 PA ++++</h4>
+              <p>Formulated with 0% alcohol, making it light and non-sticky.
+              </p>
+            </div>
+            <h3>RM 26.90<span></span></h3>
+            <button class="btn"><i class="ri-shopping-cart-2-line"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="skincare__grid">
+        <div class="skincare__card">
+          <img src="images/sunscreen4.jpg" alt="sunscreen4">
+          <div class="skincare__card__details">
+            <div>
+              <h4>Aqua Fresh Essence SPF 50 PA++++</h4>
+              <p>Formula with 0% alcohol, ensuring a lightweight feel without stickiness.
+              </p>
+            </div>
+            <h3>RM 20.50<span></span></h3>
+            <button class="btn" onclick="openPopup()">
+              <i class="ri-shopping-cart-2-line"></i>
+            </button>  
+              <div class="popup" id="popup">
+                <p>Added to cart!</p>
+                <button type="button" onclick="closePopup()">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let popup = document.getElementById("popup");
+
+    function openPopup() {
+      popup.classList.add("open-popup");
+    }
+
+    function closePopup() {
+      popup.classList.remove("open-popup");
+    }
+  </script>
+  
+  <footer class="footer" id="aboutus">>
+    <div class="footer__bar">
+      Copyright © 2024 Beauty Bazaar. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
